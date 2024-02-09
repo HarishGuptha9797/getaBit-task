@@ -1,0 +1,136 @@
+@media (max-width:1000px)
+{
+   .band-class {
+        bottom: -30px;
+   }
+   .profile-img > img{
+        width: 170px;
+        object-fit: cover;
+        height: 180px;
+    }
+   .profile-class{
+        bottom: -150px;
+   }
+   .description {
+        width: 180px;
+        height: 150px;
+        padding: 18px 15px;
+        padding-bottom: 12px;
+   }
+   .dan-mace {
+    font-size: 15px;
+    font-weight: bold;
+    }
+    .user-name {
+        margin-bottom: 5px;
+    }
+    .johy {
+        font-size: 12px;
+        color: gray;
+    }
+    .about {
+        font-size: 12px;
+        margin-bottom: 10px;
+        color: gray;
+        line-height: 20px;
+    }
+    .creator {
+        font-size: 12px;
+        padding: 3px 13px;
+    }
+    .empty {
+        height: 28px;
+        width: 70px;
+    }
+}
+@media (min-width:1001px) {
+    .band-class {
+        bottom: -90px;
+    }
+    .profile-class {
+        bottom: -115px;
+    }
+    .description {
+        width: 300px;
+        height: 209px;
+        padding-top:15px;
+        padding-bottom: 10px;
+        padding-left:30px;
+        padding-right:35px;
+    }
+    .dan-mace {
+        font-weight: bold;
+    }
+    .user-name {
+        margin-bottom: 20px;
+    }
+    .johy {
+        font-size: 13px; 
+        color: gray;
+    }
+    .about {
+        font-size: 14px;
+        margin-bottom: 25px;
+        color: gray;
+        line-height: 23px;
+    }
+    .creator{
+        padding: 4px 40px;
+        font-size: 14px;
+    }
+    .empty{
+        height: 28px;
+        width: 125px;
+    }
+}
+div{
+    font-family: inter;
+}
+.cover-image-class{
+    position: relative;
+    margin-bottom: 200px;
+ }
+.cover-image,.band-image{
+    width: 100%;
+}
+.band-class{
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+.profile-class{
+    position: absolute;
+    left: 80px;
+    display: flex;
+}
+.description{
+    background-color: #FFFFFF;
+    border-top-right-radius: 24px 24px;
+    border-bottom-right-radius: 24px 24px;
+    box-shadow: 1px 1px 10px rgb(61, 61, 61);
+}
+.user-name{
+    display: flex;
+    justify-content: space-between;
+}
+.user-name::p{
+    font-size: 10px;
+    color: grey;
+}
+.creator{
+    color: rgb(54, 54, 54);
+    background-color: white;
+    border-color: rgb(55, 55, 55);
+    border-style: solid;
+    border-radius: 5px;
+    font-family: bitter;
+    cursor: pointer;
+}
+.empty{
+    background-color: rgb(77, 77, 77);
+    border-color: #00000085;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -3px;
+}
