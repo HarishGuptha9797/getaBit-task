@@ -2,10 +2,30 @@
     header {
         height: 80px;
     }
+    .name{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .Share-new-video{
+        font-size: 20px;
+    }
+    .icons{
+        width: 350px;
+    }
 }
 @media(min-width:1001px) {
     header{
         height: 100px;
+    }
+    .name{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .Share-new-video{
+        font-size: 12px;
+    }
+    .icons{
+        width: 300px;
     }
 }
 header{
@@ -30,24 +50,18 @@ header{
 .icons{
     display: flex;
 }
-.name{
-    font-size: 25px;
-    font-weight: bold;
-}
 .icons{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 300px;
 }
 .Share-new-video{
     color: #764CC2;
     border-color: #764CC2;
     font-family: raleway;
-    font-size: 12px;
+    padding: 7px 15px;
     font-weight: bold;
     border-radius: 15px;
     border-style: solid;
-    padding: 7px 15px;
     cursor: pointer;
 }
